@@ -1,0 +1,87 @@
+Room Name: Room 1
+Room Description:  Inside car<br>1
+Exit Rooms: N-Room 2
+Room Name: Room 2
+Room Description:  Front door
+Exit Rooms: S-Room 1, N-Room 3
+Room Name: Room 3
+Room Description:  Inside house
+Exit Rooms: S-Room 2, W-Room 4, E-Room 5, U-Room 8, N-Room 7
+Room Name: Room 4
+Room Description:  Family room
+Exit Rooms: E-Room 3
+Room Name: Room 5
+Room Description:  Kitchen table
+Exit Rooms: W-Room 3, N-Room 6
+Room Name: Room 6
+Room Description:  Kitchen
+Exit Rooms: S-Room 5, W-Room 7
+Room Name: Room 7
+Room Description:  Centre hallway
+Exit Rooms: E-Room 6, S-Room 3, D-Room 9, N-Room 10, W-Room 24
+Room Name: Room 8
+Room Description:  Upstairs staircase
+Exit Rooms: D-Room 3, S-Room 13, W-Room 16, E-Room 17, N-Room 18
+Room Name: Room 9
+Room Description:  Basement staircase
+Exit Rooms: U-Room 7, N-Room 25, S-Room 26
+Room Name: Room 10
+Room Description:  Living room
+Exit Rooms: S-Room 7, E-Room 11, N-Room 12
+Room Name: Room 11
+Room Description:  Dining room
+Exit Rooms: W-Room 10
+Room Name: Room 12
+Room Description:  Back deck
+Exit Rooms: S-Room 10
+Room Name: Room 13
+Room Description:  Upstairs indoor balcony
+Exit Rooms: N-Room 8, W-Room 14, E-Room 15
+Room Name: Room 14
+Room Description:  Library
+Exit Rooms: E-Room 13
+Room Name: Room 15
+Room Description:  Play room 
+Exit Rooms: W-Room 13
+Room Name: Room 16
+Room Description:  Bedroom one 
+Exit Rooms: E-Room 8
+Room Name: Room 17
+Room Description:  Bedroom two
+Exit Rooms: W-Room 8
+Room Name: Room 18
+Room Description:  Common area upstairs 
+Exit Rooms: S-Room 8, W-Room 19, E-Room 21, N-Room 22
+Room Name: Room 19
+Room Description:  Master bedroom
+Exit Rooms: E-Room 18, N-Room 20
+Room Name: Room 20
+Room Description:  Master bathroom
+Exit Rooms: S-Room 19
+Room Name: Room 21
+Room Description:  Upstairs bathroom
+Exit Rooms: W-Room 18
+Room Name: Room 22
+Room Description:  Upstairs window 
+Exit Rooms: S-Room 18, E-Room 23
+Room Name: Room 23
+Room Description:  Pet room
+Exit Rooms: W-Room 22
+Room Name: Room 24
+Room Description:  Mini bathroom
+Exit Rooms: E-Room 7
+Room Name: Room 25
+Room Description:  Large basement area
+Exit Rooms: S-Room 9
+Room Name: Room 26
+Room Description:  Basement hallway
+Exit Rooms: N-Room 9, E-Room 27, S-Room 28, W-Room 29
+Room Name: Room 27
+Room Description:  Basement bathroom
+Exit Rooms: W-Room 26
+Room Name: Room 28
+Room Description:  Laundry room
+Exit Rooms: N-Room 26
+Room Name: Room 29
+Room Description:  Basement bedroom
+Exit Rooms: E-Room 26
