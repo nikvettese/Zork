@@ -432,6 +432,7 @@ public class Game {
     }
   }
 
+  //determine how much space taken up in backpack
   private int inventorySpace() {
     for(int i = 0; i < backpack.size(); i++) {
       if(backpack.get(i).getName().equals("food") || backpack.get(i).getName().equals("dogbone") || backpack.get(i).getName().equals("map")
@@ -478,6 +479,8 @@ public class Game {
   * Take an item and put to backpack. This action takes 30 seconds.
   * @param command
   */
+
+  //take an item from a room
   private void takeItem(Command command){
     if(!command.hasSecondWord()) {
       System.out.println("Invalid take command");
@@ -520,6 +523,7 @@ public class Game {
     timer += 30;
   }
 
+  //places an item in a room, removes it from backpack
   private void placeItem(Command command){
     if(!command.hasSecondWord()){
       System.out.println("Which item will be placed?");
@@ -650,6 +654,7 @@ public class Game {
     }
   }
 
+  //displays info about the backpack
   private void displayBackpack(Command command){
     System.out.print("Items in backpack: ");
     for(int i = 0; i < backpack.size(); i++) {
@@ -663,6 +668,7 @@ public class Game {
     System.out.println("Total value: " + totValue + ", inventory /17: " + inventorySpace);
   }
 
+  //obtains key
   private Item getKeyFromBackpackByRoomName(String roomName){
     for(int i=0;i<backpack.size();i++){
       if(backpack.get(i).getName().equals("key") && backpack.get(i).getValue().equals(roomName)){
@@ -720,6 +726,7 @@ public class Game {
     timer += 30;
   }
 
+  //obtain total monetary value from items in backpack
   private int getTotalValue() {
     int totalValue = 0;
     for(int i = 0; i < backpack.size(); i++) {
@@ -735,6 +742,7 @@ public class Game {
     return totalValue;
   }
 
+  //take an item from a backpack, remove it from backpack
   private Item getItemFromBackpack(String itemName, String itemValue) {
     for(int i = 0; i < backpack.size(); i++) {
       Item actualItem = backpack.get(i);
