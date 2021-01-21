@@ -1,0 +1,14 @@
+Character Name: The Husband
+0, The husband is in Room 3,,Room3
+Character Name: The Husband
+60, The husband is leaving Room 3 and heading to Room 1,Room3,Room1
+Character Name: The Husband
+120, The husband is leaving the House,Room2,Destination1
+Character Name: The Wife
+1000, The wife wakes up,,Room15
+Character Name: The Wife
+1060, The wife leaves the bedroom and enters the hallway,Room15,Room16
+Character Name: The Wife
+1120, The wife heads to the staircase,Room16,Room13
+Character Name: The Wife
+1180, The wife goes down the staircase and sits on the chair,Room13,Room1
